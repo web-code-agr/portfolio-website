@@ -1,0 +1,54 @@
+.HomePage{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    
+}
+
+
+.hero-text{
+    color: white;
+    text-align: center;
+    font-size: 3.6rem;
+    span{
+        color:#037fff;
+
+    }
+}
+
+.h-sub-text{
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+    .icon-holder{
+        margin-right: 2rem;
+        .icon{
+            font-size: 2.3rem;
+            color: #a4acc4;
+            transition: all 0.4s ease-in-out;
+        }
+        .fb:hover{
+            color: blue;
+            transform: scale(1.2);
+        }
+        .li:hover{
+            color: blue;
+            transform: scale(1.2);
+        }
+        .ig:hover{
+            color: rgb(173, 24, 173);
+            transform: scale(1.2);
+        }
+        .gh:hover{
+            color: rgba(212,45,212,0.788);
+            transform: scale(1.2);
+        }
+    }
+}
